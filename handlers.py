@@ -13,8 +13,7 @@ PRICE = {
     '2': [types.LabeledPrice(label='Item2', amount=200000)],
     '3': [types.LabeledPrice(label='Item3', amount=300000)],
     '4': [types.LabeledPrice(label='Item4', amount=400000)],
-    '5': [types.LabeledPrice(label='Item5', amount=500000)],
-    '6': [types.LabeledPrice(label='Item6', amount=600000)]
+    
 }
 
 @dp.message_handler(content_types='web_app_data')
